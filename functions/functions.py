@@ -1,5 +1,7 @@
 """System module."""
 
+## FUNCTIONS
+
 # def hello():
 #     """System module."""
 
@@ -9,11 +11,35 @@
 
 # hello()
 
-def hello(name, lastName):
+## PARAMETERS AND ARGUMENTS
+
+# def hello(name, lastName):
+#     """System module."""
+
+#     print("Hello World!")
+#     print(f"Welcome {name} {lastName}") #PARAMETERS
+
+
+# hello("Chanchito", "Happy") # ARGUMENTS
+
+## OPTIONAL ARGUMENTS
+
+# def hello(name, lastName="Happy"):
+#     """System module."""
+
+#     print("Hello World!")
+#     print(f"Welcome {name} {lastName}")
+
+
+# hello("Chanchito")
+
+## NAMED ARGUMENTS
+
+def hello(name, lastName="Happy"):
     """System module."""
 
     print("Hello World!")
-    print(f"Welcome {name} {lastName}") #PARAMETERS
+    print(f"Welcome {name} {lastName}")
 
 
-hello("Chanchito", "Happy") # ARGUMENTS
+hello(lastName="Happy", name="Chanchito")
