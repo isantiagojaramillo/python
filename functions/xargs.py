@@ -1,6 +1,7 @@
 """System module."""
 
 def add(*numbers):
+    """System module."""
     result = 0
     for number in numbers:
         result += number
