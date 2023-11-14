@@ -1,10 +1,19 @@
 """System module."""
 
-def hello():
+# def hello():
+#     """System module."""
+
+#     print("Hello World!")
+#     print("Ultimate Python")
+
+
+# hello()
+
+def hello(name, lastName):
     """System module."""
-    
+
     print("Hello World!")
-    print("Ultimate Python")
+    print(f"Welcome {name} {lastName}") #PARAMETERS
 
 
-hello()
+hello("Chanchito", "Happy") # ARGUMENTS
