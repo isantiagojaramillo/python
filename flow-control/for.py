@@ -16,5 +16,9 @@ else:
     print("I did not find the number")
 
 
+for char in "Ultimate Python":
+    print(char)
+
+
 
 
